@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap");
 :root{
     --colour-bg: #fff;
-    --colour-text: #000;
+    --colour-text: rgb(5, 20, 9);
 
     --font-display: 'Lora', serif;
     --font-body: 'Josefin Sans', sans-serif;
@@ -10,5 +10,20 @@
 body{
     background-color: var(--colour-bg);
     color: var(--colour-text);
-    
+    font-family: var(--font-body);
+    text-align: center;
+ }
+
+h1{
+     font-family: var(--font-display);
+     text-transform: uppercase;
+}
+
+h2{
+    font-family: var(--font-display);
+    text-transform: uppercase;
+}
+table{
+    margin-left: auto;
+    margin-right: auto;
 }
