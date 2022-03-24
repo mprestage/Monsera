@@ -38,3 +38,7 @@ ul{
     text-decoration-line: none;
 }
 
+.menulist > dt{
+    font-size: 1.6em;
+    margin-bottom: 1em;
+}
